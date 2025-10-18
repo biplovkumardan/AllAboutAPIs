@@ -1,0 +1,3 @@
+Prompt 1
+==============================
+I want to do hands-on for all type of API listed in "AllTypeofAPIs.txt" using C#. Need to have separate project for each type of APIs listed in that text file. Create a prompt which will help me to do so in VS Code

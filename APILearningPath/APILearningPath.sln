@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApi", "RestApi\RestApi.csproj", "{ACABE0CB-15FA-44E7-A96C-70A7F5DA6870}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoapApi", "SoapApi\SoapApi.csproj", "{9E0B2687-C764-4EA0-A390-D836DBA8A0D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcApi", "GrpcApi\GrpcApi.csproj", "{EB52B686-9C83-4EC7-9F0C-2E6D34AF353F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphQLApi", "GraphQLApi\GraphQLApi.csproj", "{ADE62A47-7643-4DB6-B862-1F6974E5E779}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSocketApi", "WebSocketApi\WebSocketApi.csproj", "{98C11DAB-7B6F-4B5A-9632-58B937B39DB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebhookApi", "WebhookApi\WebhookApi.csproj", "{49714CD1-B90D-4107-A313-4AF6C65ABC49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRTCApi", "WebRTCApi\WebRTCApi.csproj", "{42B6F4A7-CAD8-4181-8848-45EA520BB797}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACABE0CB-15FA-44E7-A96C-70A7F5DA6870}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACABE0CB-15FA-44E7-A96C-70A7F5DA6870}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACABE0CB-15FA-44E7-A96C-70A7F5DA6870}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACABE0CB-15FA-44E7-A96C-70A7F5DA6870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E0B2687-C764-4EA0-A390-D836DBA8A0D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E0B2687-C764-4EA0-A390-D836DBA8A0D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E0B2687-C764-4EA0-A390-D836DBA8A0D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E0B2687-C764-4EA0-A390-D836DBA8A0D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB52B686-9C83-4EC7-9F0C-2E6D34AF353F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB52B686-9C83-4EC7-9F0C-2E6D34AF353F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB52B686-9C83-4EC7-9F0C-2E6D34AF353F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB52B686-9C83-4EC7-9F0C-2E6D34AF353F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADE62A47-7643-4DB6-B862-1F6974E5E779}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADE62A47-7643-4DB6-B862-1F6974E5E779}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADE62A47-7643-4DB6-B862-1F6974E5E779}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADE62A47-7643-4DB6-B862-1F6974E5E779}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98C11DAB-7B6F-4B5A-9632-58B937B39DB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98C11DAB-7B6F-4B5A-9632-58B937B39DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98C11DAB-7B6F-4B5A-9632-58B937B39DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98C11DAB-7B6F-4B5A-9632-58B937B39DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49714CD1-B90D-4107-A313-4AF6C65ABC49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49714CD1-B90D-4107-A313-4AF6C65ABC49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49714CD1-B90D-4107-A313-4AF6C65ABC49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49714CD1-B90D-4107-A313-4AF6C65ABC49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B6F4A7-CAD8-4181-8848-45EA520BB797}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B6F4A7-CAD8-4181-8848-45EA520BB797}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B6F4A7-CAD8-4181-8848-45EA520BB797}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B6F4A7-CAD8-4181-8848-45EA520BB797}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
