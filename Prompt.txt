@@ -1,3 +1,17 @@
 Prompt 1
 ==============================
 I want to do hands-on for all type of API listed in "AllTypeofAPIs.txt" using C#. Need to have separate project for each type of APIs listed in that text file. Create a prompt which will help me to do so in VS Code
+
+============
+Prompt 2
+===============
+For RestAPI make it workable hands-on project with the required class and method. Also suggest how to test it.
+
+explain complete project RestAPI for new developer so that he will be able to understand all the code and configurations involved
+
+==========
+Promt 3
+=============
+For SoapApi make it workable hands-on project with the required class and method. Also suggest how to test it. Do the required XML documentation.
+
+explain complete project SoapApi for new developer so that he will be able to understand all the code and configurations involved
