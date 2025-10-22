@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "CiB+oKnoM42Fs6tmXb6bN5fjBxEgTEb3F1omWe08H34=",
+  "Source": "WebhookApi",
+  "BasePath": "_content/WebhookApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

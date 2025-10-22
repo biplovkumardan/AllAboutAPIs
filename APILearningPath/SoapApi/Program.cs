@@ -21,7 +21,7 @@ builder.Services.AddMvc();
 var app = builder.Build();
 
 // Configure SOAP endpoint with extended options
-app.UseSoapEndpoint<IWeatherService>("/WeatherService.asmx", new SoapEncoderOptions
+((IEndpointRouteBuilder)app).UseSoapEndpoint<IWeatherService>("/WeatherService.asmx", new SoapEncoderOptions
 {
     WriteEncoding = Encoding.UTF8,
     ReaderQuotas = new System.Xml.XmlDictionaryReaderQuotas
@@ -31,12 +31,8 @@ app.UseSoapEndpoint<IWeatherService>("/WeatherService.asmx", new SoapEncoderOpti
         MaxArrayLength = 16384,
         MaxBytesPerRead = 4096,
         MaxNameTableCharCount = 16384
-    },
-    SoapSerializer = SoapSerializer.XmlSerializer,
-    Path = "/WeatherService.asmx",
-    IndentXml = true,
-    EnableMessageSecurityValidation = false
-});
+    }
+}, SoapSerializer.XmlSerializer);
 
 // Add basic health check endpoint
 app.MapGet("/health", () => Results.Ok("Service is healthy"));

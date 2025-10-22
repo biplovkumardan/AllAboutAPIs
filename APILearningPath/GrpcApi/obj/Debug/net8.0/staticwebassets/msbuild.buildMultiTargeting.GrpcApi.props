@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GrpcApi.props" />
+</Project>

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "r/a31GiGq1ZwZFnn+8YxJ78A3DJVGh4y8DshbRcm1PA=",
+  "Source": "GrpcApi",
+  "BasePath": "_content/GrpcApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ckq+MlJ7GRVvAbasXhAhpVNomKRJrWX4DHvsH+7oF3Q=",
+  "Source": "WebRTCApi",
+  "BasePath": "_content/WebRTCApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
